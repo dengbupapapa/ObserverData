@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ObserverData</title>
+</head>
+<body>
+<script type="text/javascript" src="./ObserverData.js"></script>
+<script type="text/javascript">
+    let data= {a:1,b:123,c:[]};
+    let observerDataOffset = new ObserverData(); //监听offsetX、offsetY
+
+    observerDataOffset.data = data;
+    observerDataOffset.opt = {
+
+    }
+    observerDataOffset.cb = function(...a) {
+        console.log(a)
+    }.bind(this);
+    observerDataOffset.run('dep');
+
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+{
+    "name": "ObserverData",
+    "version": "1.0.0",
+    "description": "Observer data、defineProperty",
+    "main": "./bundle/ObserverData.cjs.js",
+    "scripts": {
+        "start": "rollup -c -w --o ./bundle/ObserverData.js",
+        "bundle:cjs": "rollup -c -w -f cjs --o ./bundle/ObserverData.cjs.js",
+        "bundle:es": "rollup -c -w -f es --o ./bundle/ObserverData.es.js",
+        "bundle:umd": "rollup -c -w -f umd --o ./bundle/ObserverData.umd.js",
+        "bundle:all": "npm start && npm run bundle:cjs && npm run bundle:es && npm run bundle:umd"
+    },
+    "author": "dbp",
+    "license": "ISC",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-plugin-external-helpers": "^6.22.0",
+        "babel-preset-latest": "^6.24.1",
+        "rollup-plugin-babel": "^3.0.2",
+        "rollup-plugin-commonjs": "^8.2.6",
+        "rollup-plugin-json": "^2.3.0",
+        "rollup-plugin-node-resolve": "^3.0.0"
+    }
+}
