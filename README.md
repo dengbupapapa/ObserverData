@@ -1,8 +1,8 @@
-# ObserverData
+# observer-data
 Observer data、defineProperty
 
 ## install
-	npm i ObserverData --save
+	npm i observer-data --save
 ## use
 	let observerData = new ObserverData();
 	

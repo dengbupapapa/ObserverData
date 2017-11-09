@@ -1,5 +1,5 @@
 {
-    "name": "ObserverData",
+    "name": "observer-data",
     "version": "1.0.0",
     "description": "Observer data、defineProperty",
     "main": "./bundle/ObserverData.cjs.js",
