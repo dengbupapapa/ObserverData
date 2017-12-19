@@ -44,5 +44,10 @@ Observer data、defineProperty
 	
 		data.$del('b');//解除b属性的绑定并且删除触发回调。
 		
-### ps:数组经过重写，按原有方法使用也会触发监听。	
+### ps:数组经过重写，按原有方法使用也会触发监听。
+
+## Community
+
+[github](https://github.com/dengbupapapa/observer-data) 
+[npm](https://www.npmjs.com/package/observer-data) 	
 	
